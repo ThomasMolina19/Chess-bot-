@@ -44,10 +44,6 @@ def draw_board(board):
 def main():
     board = chess.Board()
     board.push_san("e4")
-    board.push_san("e5")
-    board.push_san("Qh5")
-    board.push_san("Bb4")
-    board.push_san("Qe4")
     running = True
     while running:
         for event in pygame.event.get():
